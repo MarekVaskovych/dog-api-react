@@ -1,0 +1,27 @@
+.card {
+    border: rgb(68, 143, 210);;
+    border-style:groove;
+}
+
+.display-6 {
+    color: rgb(20, 89, 150);
+    font-size: bold;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 80px;
+}
+
+.btn {
+    margin: 10%;
+    border-radius: 25px;
+    background-color: rgb(68, 143, 210);
+    color: aliceblue;
+}
+.btn:hover {
+    color: rgb(68, 143, 210);
+    background-color: aliceblue;
+}

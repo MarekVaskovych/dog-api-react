@@ -29,17 +29,24 @@ function DogImageList() {
     };
 
     return (
-        <div className="card" style={{ width: "30rem", height: "45rem" }}>
-            <div className="text-center">
-                <h1 className="display-6">Random dog breed</h1>
-                <div>
-                    {image && <img className="card-img-top" src={image} alt="You can see random dogs" />}
-                    <button className="btn btn-success" onClick={handleRefreshButton}>Click for another dog!</button>
+        <div className="container">
+            <div className="col">
+                <div className="row">
+                    <div className="card" style={{ width: "30rem", height: "40rem" }}>
+                        <div className="text-center">
+                            <h1 className="display-6">Random dog breed</h1>
+                            <div>
+                                {image && <img className="card-img-top" src={image} alt="You can see random dogs" />}
+                                <div className="card-body">
+                                    <button className="btn btn-style" onClick={handleRefreshButton}>Click for another dog!</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
-
         </div>
+
     );
 };
 
