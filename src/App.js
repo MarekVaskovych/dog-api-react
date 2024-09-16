@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
+import DogImageList from './DogImageList';
 
 function App() {
   return (
-    <div className="App">
-     
+    <div >
+      <DogImageList />
     </div>
   );
 }
