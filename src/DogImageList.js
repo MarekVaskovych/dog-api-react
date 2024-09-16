@@ -38,7 +38,7 @@ function DogImageList() {
                             <div>
                                 {image && <img className="card-img-top" src={image} alt="You can see random dogs" />}
                                 <div className="card-body">
-                                    <button className="btn btn-style" onClick={handleRefreshButton}>Click for another dog!</button>
+                                    <button className="btn" onClick={handleRefreshButton}>Click for another dog!</button>
                                 </div>
                             </div>
                         </div>
