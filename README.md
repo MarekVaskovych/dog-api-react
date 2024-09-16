@@ -1,8 +1,12 @@
-# Getting Started with Create React App
+# My first app in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ It's that was build for better day! If you click on button, you can see another picture of dog. I've made app using technology BootStrap, JSX, HTML, CSS and API.
 
-## Available Scripts
+ ![obrazek](https://github.com/user-attachments/assets/03155bb0-d6c0-4aa5-9037-8e0018fb1a99)
+
+ With time I will improve all my apps , or you can do it ! :)
+
+## Available Scripts from React :
 
 In the project directory, you can run:
 
